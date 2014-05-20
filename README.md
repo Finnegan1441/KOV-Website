@@ -5,6 +5,17 @@ Webpage for wine group
 
 Still Need:
 
+-Review Storage Template Page
+
+    -Stores every review for specific person/all
+    
+-Review Template Page
+
+    -1 to 3 Pictures
+    
+    -Review
+    
+    -Rating
 
 -Tasting Template Page
 
