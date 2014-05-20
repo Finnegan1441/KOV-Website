@@ -3,7 +3,7 @@ KOV-Website
 
 Webpage for wine group
 
-Still Need:
+Still Need: <font color="green">In Progress</font>
 
 -Review Storage Template Page
 
