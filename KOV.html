@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+a:link, a:visited, a:active {text-decoration:none}
+</style>
+
+
+<title>KOV</title>
+</head>
+<body>
+
+<div>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td>
+
+<img id="bgimage" src="emilion.jpg"/>
+
+<div id="header" style="background-color:#000000;">
+<h1 style="margin-bottom:0;"><font face="palatino,palatino linotype" color="#FFD700" size="7"><center>KNIGHTS OF VICTUALATION</center></font></h1>
+</div>
+
+<div id="menu"  style="background-color:;height:100%;width:25%;float:left;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><b><font color="#FFD700" size="7">Tastings</font></b></center>
+<ul>
+<font color="#FFD700" size="5">
+<li><a href="">Tasting</a></li>
+<li><a href="">Tasting</a></li>
+<li><a href="">Tasting</a></li>
+<li><a href="">Tasting</a></li>
+<li><a href="">Tasting</a></li>
+</font>
+</ul>
+<center><b><font size="6"><a href="">Archive</a></font></b></center>
+<center><b><font color="#FFD700" size="7">Upcoming</font></b></center>
+<center><b><font color="#FFD700" size="5"><form method="post" action="ingen_javascript.html" 
+  onsubmit="CheckPassword();return false;" name="login">
+<pre>
+Username: <input type="text" name="username">
+Password: <input type="password" name="password">
+</pre>
+<input type="submit" value="Submit" onclick="CheckPassword();return false;">
+</form>
+</font></b></center>
+</div>
+
+<script type="text/javascript">
+
+function CheckPassword() {
+  var username=document.login.username.value;
+  var password=document.login.password.value;
+  location.href = username + password+'.html';
+}
+
+</script>
+
+<div id="rightmenu"  style="background-color:;height:100%;width:25%;float:right;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><b><font color="#FFD700" size="7">Members</font></b></center>
+<ul>
+<font color="#FFD700" size="5">
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">John Cummins</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Tim McInerney</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Tom Wilberding</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Carl Dempsey</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">David Johnson</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Chris Good</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">John Fournier</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Chuck White</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Tom O'Malley</a></li>
+<li><a href="MemberPage.html"><img src="redwine.jpg" width="42" height="42">Mark Murphy</a></li>
+</font>
+</ul>
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+<style>
+body, html { margin:0; padding:0; height:100%; width:100%; }
+#bgimage { position:fixed; left:0; top:0; z-index:1; height:100%; width:100%; }
+#header { position:absolute; left:0; top:0; z-index:70; height:10%; width:100%; }
+#menu { position:absolute; left:0; top:0; z-index:1; height:100%; width:100%; }
+#rightmenu { position:absolute; right: 0; top:0; z-index:1; height:100%; width:100%;}
+</style>
+
+</div>
+</body>
+</html>
